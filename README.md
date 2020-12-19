@@ -6,7 +6,7 @@ This is the implementation of our RA-L paper [`Towards Target-Driven Visual Navi
 ## Implementation
 ### Training
 * The environment: Cuda 10.0, Python 3.6.4, PyTorch 1.0.1 
-* Please download "depth_imgs.npy" file from the [AVD_Minimal](https://drive.google.com/file/d/1SmA-3cGwV12XKdGYdsBEJwxf1MYdE6-y/view?usp=sharing) and put the file in the train folder. 
+* Please download "depth_imgs.npy" file from the [AVD_Minimal](https://drive.google.com/file/d/1SmA-3cGwV12XKdGYdsBEJwxf1MYdE6-y/view?usp=sharing) and put the file in the current folder. 
 * Our trained model can be downloaded from [HERE](https://drive.google.com/open?id=182D_0hP7orpJKyDDLlUyV4URwT3Rt0Ux).
 * To train the navigation model from scratch, use "python3 cnetworkd.py".
     
