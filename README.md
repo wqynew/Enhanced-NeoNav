@@ -27,6 +27,10 @@ This is the implementation of our RA-L paper [`Towards Target-Driven Visual Navi
   </table>
 </div>
 
+    * The time for the robot to finish each locomotion is much longer. For example, the move right action predicted by our navigation model is converted to rotate right at 45^\circ/s for 2s, move forward at 0.25m/s for 2s, and rotate left at 45^\circ/s for 2s. 
+    * The saltatorial velocity control results in jerky motions. 
+    * Extension to continuous velocity control would make the method applicable in realistic environments.
+
 ## Contact
 To ask questions or report issues please open an issue on the [issues tracker](https://github.com/wqynew/Enhanced-NeoNav/issues).
 ## Citation
