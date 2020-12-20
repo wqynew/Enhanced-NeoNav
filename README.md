@@ -12,6 +12,7 @@ This is the implementation of our RA-L paper [`Towards Target-Driven Visual Navi
     
 ### Testing
 * To evaluate our model, please run "python3 eva_checkpointd1.py".
+* The video can be downloaded [HERE](https://drive.google.com/file/d/1_V_-UddogqerYVo956-wKihjVdPT7c1B/view?usp=sharing).
 
 ## Results
 <div align="center">
